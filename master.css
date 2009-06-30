@@ -591,6 +591,7 @@ img.pod-image {float:left; width: 98px; height: 98px; display: inline; padding-r
 #programming-shows a, #syndicated-shows a {color:#00b4e5;}
 .pod-image {float:left; width:98px;}
 .pod-description {float:left; width:245px; margin-left:10px;}
+.show-description {float:left; width:430px; margin-left:10px;}
 
 #main.full-width p, #main.full-width h2, #main.full-width h3, #main.full-width ol, #main.full-width ul {
 	padding-right: 0;
