@@ -1,0 +1,202 @@
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<LINK REL=StyleSheet HREF="master.css" TYPE="text/css" MEDIA=screen>	
+<style type="text/css">
+
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		
+			$('#map area').hide().mouseover(function(e){
+				$('#' + e.target.id.match(/[a-z]*_([a-z_-]*)/)[1]).show();
+				$('#' + e.target.id.match(/[a-z]*_([a-z_-]*)/)[1]).css('visibility', 'visible');
+			}).mouseout(function(e){
+				$('#' + e.target.id.match(/[a-z]*_([a-z_-]*)/)[1]).hide();
+			}).click(function(e){
+				e.preventDefault();
+				var that = this;
+				$('#project_table').hide('normal', function(e){
+					var hash = escape(that.href);
+					$.historyLoad(hash);
+				});
+				//$.history.load(this.href.replace(/^.*#/, 'stuff'));
+				//$('#projects_list').load(e.target.href + ' #project_table');
+			});
+
+		
+			});
+
+
+
+</script>
+
+</head>
+<body>
+	
+<div id="container">
+
+<div id="header">
+
+	<h1><a href="/">Radio Arte</a></h1>
+	<div id="map">
+		<img id="transparent_map"  usemap="#nav_map" alt="" src="images/transp.gif"/>
+			<img src="images/nav.gif" height="143" border="0" alt="">
+	<map name="nav_map" id="nav_map">
+	<area id="nav_home" shape="poly" coords="4,141,87,144,226,2,147,1,4,142" href="/home" />
+	<area id="nav_programming" shape="poly" coords="99,143,179,143,317,2,231,2,98,142,188,142,266,143" href="/programming" />
+	<area id="nav_about" shape="poly" coords="187,140,267,143,403,5,323,2,185,140" href="/about" />
+	<area id="nav_get-involved" shape="poly" coords="275,144,357,142,492,3,415,3,275,142,366,142" href="/get-involved" />
+	<area id="nav_support" shape="poly" coords="367,140,445,143,584,3,506,3,366,140" href="/support" />
+	<area id="nav_contact" shape="poly" coords="459,141,538,141,676,5,596,3,458,142" href="/contact" />
+	</map>
+	
+	<ul id="nav">
+		<li id="home"><a href="/">Home</a></li>
+		<li id="about"><a href="/about">About</a></li>
+		<li id="programming"><a href="/programming">Programming</a></li>
+		
+		<li id="get-involved"><a href="/get-involved">Get Involved</a></li>
+		<li id="support"><a href="/support">Support</a></li>
+		<li id="contact"><a href="/contact">Contact</a></li>
+	</ul>
+	</div>
+	<div id="station">90/5fm</div>
+</div>
+
+<div class="clearfix">
+<div class="firstmenu" class="clearfix">
+	<ul>
+		<li><a href="/overview">Overview</a></li>
+		<li><a href="/bios">Bios</a></li>
+		<li><a href="/history">History</a></li>
+		<li class="last"><a href="/faq">FAQ</a></li>
+	</ul>
+</div>
+</div>
+
+
+<div id="content" class="clearfix">
+
+	<div id="main">
+		<div class="padding_left">
+		<h1>Quienes Somos</h1>
+		<h2>MISI&#211;N</h2>
+		<p>Radio Arte, 90.5 WRTE-FM, es una estaci&#243;n de radio comunitaria, biling&#252;e, operada por j&#243;venes Latinos que se dedica a dar voz a nuestra 
+			sociedad y a mostrar su pluralidad y diversidad. Radio Arte promueve el periodismo reponsable y la justicia social, otorga educaci&#243;n 
+			medi&#225;tica y transmite una programaci&#243;n que ofrece m&#250;sica y contenidos ignorados en los medios comerciales. Radio Arte brinda a sus 
+			radioescuchas una amplia programaci&#243;n abarcando una gran variedad de temas de inter&#233;s com&#250;n: pol&#237;tica, inmigraci&#243;n, arte, deportes, 
+			literatura, gastronom&#237;a y asuntos LGBT. Radio Arte promueve los sonidos emergentes del vasto g&#233;nero musical latino al programar rock en 
+			espa&#241;ol, ska, electr&#243;nica, y punk entre otros ritmos alternativos.
+		</p>
+		
+		<h1>About Us</h1>
+		<h2>WHO WE ARE</h2>
+		<p>Radio Arte, 90.5 WRTE-FM, is a Latino-owned, bilingual, youth-driven public radio station that works to advance the voices of our multi-layered society. 
+			Radio Arte does this by promoting socially conscious journalism, providing media-literacy training; and creating programming that showcases music, 
+			issues, and events that are not featured prominently by mainstream media. Our guiding principals have been to:
+		</p>
+		<ol>
+			<li>Create and deliver high quality experiential learning opportunities that enable Latino youth to competencies and life skills to pursue careers 
+				of their choice, particularly journalism and media.</li>
+			<li>Build a strong national network of Spanish language youth media creators.</li>
+			<li>Support Latino youth as they become resources to the larger community through their involvement in media and civic engagement.</li>
+		</ol>
+		
+		
+		<h2>OUR HISTORY</h2>
+		<p>
+			The National Museum of Mexican Art (NMMA) acquired this Class D radio station in 1996 from the Boys & Girls Club of Chicago (BGCC), and has since 
+			supported the various initiatives that have catapulted Radio Arte into a national award winning institution.<br/><br/>  
+			Since 1997, Radio Arte has offered a comprehensive bilingual one-year media-training program to hundreds of youth (ages 15-21). Through Radio 
+			Arte's training, young adults receive instruction in journalism basics and are taught to analyze a variety of social justice issues; as well, 
+			they gain hands-on technical experience in radio production. Radio Arte's public affairs programming is driven by young people that consider the 
+			airwaves a tool of empowerment for themselves and their communities.
+		</p>
+		
+		<h2>OUR FORMAT</h2>
+		<h3>Latin Alternative</h3>
+		<p>
+			Since the mid-90's, Radio Arte has positioned itself as the only radio station in Chicago that has fully embraced the eclectic range of Latin music. 
+			Defying the traditional expectations imposed upon Latino culture, Radio Arte gave voice to the emerging sounds of Rock en Espa&#241;ol that included ska, 
+			electronica, and punk among others.<br/><br/>
+			Highlighting local and international artists, Radio Arte embraced acts such as Ely Guerra, Jaguares, Soda Stereo, Maria Fatal, Pastilla, Ley de Hielo, 
+			Los Crudos, La Querida de Cortes, and Los Enemigos de Paquita. Radio Arte continues to explore the innovation and independence of the Latin Alternative 
+			music, while recognizing the roots of its movement.<br/><br/>
+			Our Latin Alternative music programming features cutting edge Spanish language music from the U.S & Latin America, along with retro hits.  Includes 
+			informative music segments and a public affairs block featuring syndicated programs, Pacifica's *Democracy Now & Radio Bilingue's *Linea Abierta, 
+			from 1-3pm.
+		</p>
+		
+		<h3>Urban</h3>
+		<p>
+			The Urban format begins at 7pm with the daily Hotmix represented by the offical DJs of 90.5 FM DJ's in styles ranging from Deep 
+			House, Acid, Hip-Hop, Old School Classics, House, Freestyle, and other eclectic Genres. The Official 90.5 DJs are: DJ Greedy "The Rock", DJ 
+			Rocktonic, DJ Felix V, Dj Master Marco, DJ Victor Lua, DJ Panic, DJ Chi Boy, DJ Aryez. You can also catch them on the Friday night Hot Mix 
+			Show from 9pm-12Midnight and Saturdays on "Hotmix DJ's Saturday Night" 8pm-12Midnight.
+		</p>
+	</div>
+	</div>
+
+	<div  id="sidebar">
+		<div class="box" id="listenNow">
+			<h2>Listen Now!</h2>
+			<a id="live_stream" href="#">Radio Arte Live Stream</a>
+			<a id="live_stream_hd" href="#">Radio Arte 2 Live Stream HD</a>
+			<p>ON AIR: Latin Alternative<br>
+			UP NEXT: Democracy Now</p>
+		</div>
+		
+		<div class="box" id="donateNow">
+			<a href="#">Donate Now!</a>
+		</div>
+		
+		<div class="box" id="twitterFeed">
+			<h2>Radio Arte Is</h2>
+			<p>"This is the best radio program ever! Listen to Latin Alternative on Monday Night!"
+			 <a href="#">one hour ago</a></p>
+		</div>
+		
+		<div class="box" id="flickrStream">
+			<h2>See Our Photo Gallery!</h2>
+			<a class="flickr_photo" href="#">
+				<img src="images/side_flickr_photo.jpg">
+			</a>
+			<a id="flickr_gallery" href="#">go to flickr</a> 
+		</div>
+		
+		<div class="box" id="socialNetworks">
+			<h2>Stay Connected!</h2>
+			<ul class="clearfix">
+				<li id="flickr"><a href="#">flickr</a></li>
+				<li id="facebook"><a href="#">facebook</a></li>
+				<li id="twitter"><a href="#">twitter</a></li>
+				<li id="myspace"><a href="#">myspace</a></li>
+			</ul>
+		</div>
+		<div class="box" id="weather">
+			<img src="images/weather.jpg">
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+ 	<p>
+	&copy;2009 All Rights Reserved, 90.5 FM WRTE Radio Arte / 1401 W. 18th st. Chicago, IL 60608 / 312.455.9455 / Site Map
+	<br>
+	<br>
+	<strong>Main Sponsors:</strong> <a href="http://www.nationalmuseumofmexicanart.org/">National Museum of Mexican Art</a>, <a href="http://www.cpb.org/">Corporation for Pubic Broadcasting</a>, <a href="http://www.rrmtf.org/">McCormick Foundation, </a>
+	<br>
+	<a href="http://www.afterschoolmatters.org/">After School Matters</a>, <a href="http://www.joycefdn.org/">The Joyce Foundation</a>, <a href="http://www.wgnradio.com/community/neediestkidsfund/">WGN Neediest Kids Fund</a>, <a href="http://www.rwjf.org/">Robert Wood Johnson Foundation</a>
+	<br>
+	<strong>Partners:</strong> <a href="http://newroutes.org/node/12122"> Latino Public Radio Consortium</a>, <a href="http://www.nfcb.org/index.jsp">National Federation of Community Broadcasters</a>, <a href="http://newroutes.org/">New Routes to Community Health</a>, <a href="http://burnhamplan100.uchicago.edu/">Burnham Plan 100</a>
+	</p>
+	
+</div>
+
+</div>
+	
+</body>
+</html>
