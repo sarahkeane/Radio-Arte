@@ -474,6 +474,13 @@ p {
 	margin-bottom:20px;
 }
 
+#main p.small {
+	font-size: 85%;
+	width: 430px;
+	margin-top: -18px;
+	line-height: 130%;
+}
+
 /* =Footer Typography
 ------------------------------------------*/
 #footer p {
