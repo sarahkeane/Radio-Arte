@@ -1,0 +1,202 @@
+
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<LINK REL=StyleSheet HREF="master.css" TYPE="text/css" MEDIA=screen>	
+<style type="text/css">
+
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		
+			$('#map area').hide().mouseover(function(e){
+				$('#' + e.target.id.match(/[a-z]*_([a-z_-]*)/)[1]).show();
+				$('#' + e.target.id.match(/[a-z]*_([a-z_-]*)/)[1]).css('visibility', 'visible');
+			}).mouseout(function(e){
+				$('#' + e.target.id.match(/[a-z]*_([a-z_-]*)/)[1]).hide();
+			}).click(function(e){
+				e.preventDefault();
+				var that = this;
+				$('#project_table').hide('normal', function(e){
+					var hash = escape(that.href);
+					$.historyLoad(hash);
+				});
+				//$.history.load(this.href.replace(/^.*#/, 'stuff'));
+				//$('#projects_list').load(e.target.href + ' #project_table');
+			});
+
+		
+			});
+
+
+
+</script>
+
+</head>
+<body>
+	
+<div id="container">
+
+<div id="header">
+
+	<h1><a href="/">Radio Arte</a></h1>
+	<div id="map">
+		<img id="transparent_map"  usemap="#nav_map" alt="" src="images/transp.gif"/>
+			<img src="images/nav.gif" height="143" border="0" alt="">
+	<map name="nav_map" id="nav_map">
+	<area id="nav_home" shape="poly" coords="4,141,87,144,226,2,147,1,4,142" href="/home" />
+	<area id="nav_programming" shape="poly" coords="99,143,179,143,317,2,231,2,98,142,188,142,266,143" href="/programming" />
+	<area id="nav_about" shape="poly" coords="187,140,267,143,403,5,323,2,185,140" href="/about" />
+	<area id="nav_get-involved" shape="poly" coords="275,144,357,142,492,3,415,3,275,142,366,142" href="/get-involved" />
+	<area id="nav_support" shape="poly" coords="367,140,445,143,584,3,506,3,366,140" href="/support" />
+	<area id="nav_contact" shape="poly" coords="459,141,538,141,676,5,596,3,458,142" href="/contact" />
+	</map>
+	
+	<ul id="nav">
+		<li id="home"><a href="/">Home</a></li>
+		<li id="about"><a href="/about">About</a></li>
+		<li id="programming"><a href="/programming">Programming</a></li>
+		
+		<li id="get-involved"><a href="/get-involved">Get Involved</a></li>
+		<li id="support"><a href="/support">Support</a></li>
+		<li id="contact"><a href="/contact">Contact</a></li>
+	</ul>
+	</div>
+	<div id="station">90/5fm</div>
+</div>
+
+<div class="clearfix">
+<div class="firstmenu" class="clearfix">
+	<ul>
+		<li><a href="/overview">Overview</a></li>
+		<li><a href="/bios">Bios</a></li>
+		<li><a href="/history">History</a></li>
+		<li class="last"><a href="/faq">FAQ</a></li>
+	</ul>
+</div>
+</div>
+
+
+<div id="content" class="clearfix">
+
+	<div id="main">
+		<div class="padding_left">
+			<h1>FAQ</h1>
+			<h2>Frequently Asked Questions</h2>
+			<h3>What is WRTE Radio Arte's Format?</h3>
+			<p>
+			We are a class D non-for profit community radio station owned and operated by National Museum of Mexican Art in Chicago.
+			We report on the R&R Latin Charts.
+			</p>
+			<p>
+			Our main format broadcast on weekdays is a Latin Alternative/public radio format airing a mixture of Latin based top 100 tracks mixed with eclectic Latin alternative and rock en espanol mixed with news and information.  Weekday evenings we offer a mix of majority English programming aimed at Latinos whose first language may not be Spanish with a focus on RPM/electro, Indie hip hop, Chicago house, Latin freestyle and mix DJ based programming.
+			</p>
+			<p>
+			Weekends we offer specialty based shows produced locally and through syndication ranging from public affairs to regional Mexican, classical to sports. Majority of our show hosts are WRTE volunteers that have completed our radio training program and staff.
+			</p>
+			<h3>I am a band/producer/record label/dj/artist, and I want to be played on WRTE.</h3>
+			<p>
+			Send to:
+			</p>
+			<p>
+				90.5 FM WRTE Radio Arte<br>
+				1401 W. 18th St.<br>
+				Chicago, IL 60608<br>
+				ATTN: Program Director
+			</p>
+			<h3>What if I don't have a CD? Can't you just check my myspace page/website/download my album?</h3>
+			<p>
+				If you want your material to be considered is has to be a CD.
+			</p>
+			<h3>I want WRTE Radio Arte to check out/mention/come to my show/opening/event. How would I get this done?</h3>
+			<p>
+				Please contact the underwriting department at 312-455-9455 ext 201 for information and rates for "for profit" events.
+			</p>
+			<p>
+				Non-profits should email dmora@radioarte.org for inclusion in community announcements in newscasts. These are mentioned as a community service but do not have a guaranteed placement.
+			</p>
+			<h3>Can I just contact an individual show host? Drop off fliers? And so on?</h3>
+			<p>
+				All hosts must have station approval to mention non-sanctioned events.
+			</p>
+			<h3>What is "Radio Arte 2"?</h3>
+			<p>
+				Radio Arte 2 is our second channel which is broadcast exclusively through the world wide web on www.radioarte.org until November 2008 when it will also be simulcast on an HD Radio on the frequency of 90.5-2 HD. It offers an open format playing various Latino based musical genres. For more information on what an HD Radio is go to www.hdradio.com.
+			</p>
+			<h3>I represent a publicity agency and want publicity for an event, will it make a difference if I email all your staff?</h3>
+			<p>
+				No please email the program director. WRTE Radio Arte is a non-partisan radio station that does not sponsor a particular artist or brand.
+			</p>
+			<h3>Still have questions?</h3>
+			<p>
+				Please contact programming@radioarte.org.
+			</p>
+				
+					
+			
+			
+		</div>
+	</div>
+
+	<div  id="sidebar">
+		<div class="box" id="listenNow">
+			<h2>Listen Now!</h2>
+			<a id="live_stream" href="#">Radio Arte Live Stream</a>
+			<a id="live_stream_hd" href="#">Radio Arte 2 Live Stream HD</a>
+			<p>ON AIR: Latin Alternative<br>
+			UP NEXT: Democracy Now</p>
+		</div>
+		
+		<div class="box" id="donateNow">
+			<a href="#">Donate Now!</a>
+		</div>
+		
+		<div class="box" id="twitterFeed">
+			<h2>Radio Arte Is</h2>
+			<p>"This is the best radio program ever! Listen to Latin Alternative on Monday Night!"
+			 <a href="#">one hour ago</a></p>
+		</div>
+		
+		<div class="box" id="flickrStream">
+			<h2>See Our Photo Gallery!</h2>
+			<a class="flickr_photo" href="#">
+				<img src="images/side_flickr_photo.jpg">
+			</a>
+			<a id="flickr_gallery" href="#">go to flickr</a> 
+		</div>
+		
+		<div class="box" id="socialNetworks">
+			<h2>Stay Connected!</h2>
+			<ul class="clearfix">
+				<li id="flickr"><a href="#">flickr</a></li>
+				<li id="facebook"><a href="#">facebook</a></li>
+				<li id="twitter"><a href="#">twitter</a></li>
+				<li id="myspace"><a href="#">myspace</a></li>
+			</ul>
+		</div>
+		<div class="box" id="weather">
+			<img src="images/weather.jpg">
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+ 	<p>
+	&copy;2009 All Rights Reserved, 90.5 FM WRTE Radio Arte / 1401 W. 18th st. Chicago, IL 60608 / 312.455.9455 / Site Map
+	<br>
+	<br>
+	<strong>Main Sponsors:</strong> <a href="http://www.nationalmuseumofmexicanart.org/">National Museum of Mexican Art</a>, <a href="http://www.cpb.org/">Corporation for Pubic Broadcasting</a>, <a href="http://www.rrmtf.org/">McCormick Foundation, </a>
+	<br>
+	<a href="http://www.afterschoolmatters.org/">After School Matters</a>, <a href="http://www.joycefdn.org/">The Joyce Foundation</a>, <a href="http://www.wgnradio.com/community/neediestkidsfund/">WGN Neediest Kids Fund</a>, <a href="http://www.rwjf.org/">Robert Wood Johnson Foundation</a>
+	<br>
+	<strong>Partners:</strong> <a href="http://newroutes.org/node/12122"> Latino Public Radio Consortium</a>, <a href="http://www.nfcb.org/index.jsp">National Federation of Community Broadcasters</a>, <a href="http://newroutes.org/">New Routes to Community Health</a>, <a href="http://burnhamplan100.uchicago.edu/">Burnham Plan 100</a>
+	</p>
+	
+</div>
+
+</div>
+	
+</body>
+</html>
