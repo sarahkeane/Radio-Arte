@@ -69,6 +69,10 @@ body {
 		overflow: hidden;
 		line-height: 1000px;	
 }
+
+#station {
+	text-indent: -10000px;
+}
 				
 #container{
 	width: 1024px;
@@ -166,7 +170,7 @@ body {
 	}
 
 	#transparent_map {
-		width: 556px;
+		width: 650px;
 		height: 143px;
 		position: absolute;
 		z-index: 30;
@@ -503,16 +507,37 @@ p {
 /* =HOMEPAGE Layout styles (RV)
 ------------------------------------------*/
 em {color:#676565;}
-p.caption {width: 385px;}
-#homepage-productions li {border: 0px solid #000; width:235px; float:left; margin-right:10px; overflow:hidden;}
+p.caption {width: 365px;}
+#homepage-productions ul {
+	margin-bottom: 20px;
+}
+#homepage-productions li {border: 0px solid #000; width:235px; float:left; margin: 0 10px 10px 0; overflow:hidden;}
 #homepage-productions li.last {margin-right:0;}
 #homepage-productions a.readmore {font-weight: bold; color: #00b4e5; font-family:sans-serif; background: url("images/img_arrow.gif") no-repeat left top; width:9px; height:14px; padding-left:11px;}
-#homepage-news-and-events #news, #homepage-news-and-events #events {width:375px; float:left; margin-right:0px;}
+#homepage-news-and-events #news, #homepage-news-and-events #events {width:365px; float:left; margin-right:0px;}
 #event-list {background-color:#fffecd; margin-right:10px;}
 #event-list h2.events {background: url("images/hdr_events.gif") no-repeat left top; width:222px; height:29px; text-indent: -50000px;}
 #event-list h2.news {background: url("images/hdr_news.gif") no-repeat left top; width:222px; height:29px; text-indent: -50000px;}
 #event-list ul {padding:15px;}
-#homepage-marquee h3 {width:497px; height:65px; border:1px solid #000; background: url('images/img_bluebar.png'); no-repeat left top; text-transform: uppercase; }
+#homepage-marquee {
+	position: relative;
+	width: 733px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+#homepage-marquee h3 {
+	width:497px;
+	height:65px;
+	background: url('images/image_overlay.png') no-repeat;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: -2px;
+	padding: 5px 0 0 5px;
+	margin: 0;
+	color: #fffef3;
+	font-style: normal;
+	font: 24px Arial, Helvetica, sans-serif;
+ }
 h3.homo-frecuencia {background: url("images/header_homofrecuencia.gif") no-repeat left top; width:197px; height:13px; text-indent: -50000px; margin-bottom: 5px;}
 h3.first-voice {background: url("images/header_firstvoice.gif") no-repeat left top; width:197px; height:13px; text-indent: -50000px; margin-bottom: 5px;}
 h3.primera-voz {background: url("images/header_primeravoz.gif") no-repeat left top; width:197px; height:13px; text-indent: -50000px; margin-bottom: 5px;}
