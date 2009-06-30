@@ -265,6 +265,9 @@ body {
 		width: 1024px;
 		background: #14bae7;
 		margin: 0 0 0 0;
+		min-height: 23px;
+		height: auto !important;
+		height: 23px;
 	}
 
 	.firstmenu ul{

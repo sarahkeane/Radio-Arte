@@ -3,10 +3,10 @@
 <div class="clearfix">
 <div class="firstmenu" class="clearfix">
 	<ul>
-		<li><a href="/overview">Overview</a></li>
-		<li><a href="/bios">Bios</a></li>
-		<li><a href="/history">History</a></li>
-		<li class="last"><a href="/faq">FAQ</a></li>
+		<li><a href="/about.php">Overview</a></li>
+		<li><a href="/about-bios.php">Bios</a></li>
+		<li><a href="/about-history.php">History</a></li>
+		<li class="last"><a href="/about-faq.php">FAQ</a></li>
 	</ul>
 </div>
 </div>
@@ -77,21 +77,4 @@
 	<?php include("sidebar.php"); ?>
 </div>
 
-<div id="footer">
- 	<p>
-	&copy;2009 All Rights Reserved, 90.5 FM WRTE Radio Arte / 1401 W. 18th st. Chicago, IL 60608 / 312.455.9455 / Site Map
-	<br>
-	<br>
-	<strong>Main Sponsors:</strong> <a href="http://www.nationalmuseumofmexicanart.org/">National Museum of Mexican Art</a>, <a href="http://www.cpb.org/">Corporation for Pubic Broadcasting</a>, <a href="http://www.rrmtf.org/">McCormick Foundation, </a>
-	<br>
-	<a href="http://www.afterschoolmatters.org/">After School Matters</a>, <a href="http://www.joycefdn.org/">The Joyce Foundation</a>, <a href="http://www.wgnradio.com/community/neediestkidsfund/">WGN Neediest Kids Fund</a>, <a href="http://www.rwjf.org/">Robert Wood Johnson Foundation</a>
-	<br>
-	<strong>Partners:</strong> <a href="http://newroutes.org/node/12122"> Latino Public Radio Consortium</a>, <a href="http://www.nfcb.org/index.jsp">National Federation of Community Broadcasters</a>, <a href="http://newroutes.org/">New Routes to Community Health</a>, <a href="http://burnhamplan100.uchicago.edu/">Burnham Plan 100</a>
-	</p>
-	
-</div>
-
-</div>
-	
-</body>
-</html>
+<?php include("footer.php"); ?>
