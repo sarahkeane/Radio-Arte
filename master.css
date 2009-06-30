@@ -183,13 +183,13 @@ body {
 		}
 	#nav li#home {
 		position:absolute;
-		top: 0;
-		left: 0px;	
+		top: 0px;
+		left: -1px;	
 	}
 	
 	#nav li#about {
 		position:absolute;
-		top: 0;
+		top: 0px;
 		left: 180px;	
 	}
 	
@@ -202,7 +202,7 @@ body {
 	#nav li#get-involved {
 		position:absolute;
 		top: 0;
-		left: 271px;	
+		left: 270px;	
 	}
 	
 	#nav li#support {
@@ -251,7 +251,7 @@ body {
 	#nav li#contact a {
 		background-image: url("images/nav_contact.gif");
 	}
-		
+
 	
 /*------------------------------------------*/
 /* =Sub Navigation
