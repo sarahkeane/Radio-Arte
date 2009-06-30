@@ -183,13 +183,13 @@ body {
 		}
 	#nav li#home {
 		position:absolute;
-		top: 0;
-		left: 0px;	
+		top: 0px;
+		left: -1px;	
 	}
 	
 	#nav li#about {
 		position:absolute;
-		top: 0;
+		top: 0px;
 		left: 180px;	
 	}
 	
@@ -202,7 +202,7 @@ body {
 	#nav li#get-involved {
 		position:absolute;
 		top: 0;
-		left: 271px;	
+		left: 270px;	
 	}
 	
 	#nav li#support {
@@ -251,7 +251,7 @@ body {
 	#nav li#contact a {
 		background-image: url("images/nav_contact.gif");
 	}
-		
+
 	
 /*------------------------------------------*/
 /* =Sub Navigation
@@ -505,7 +505,32 @@ p {
   }
 
 
+/* blog styles
 ------------------------------------------*/
+#blogBox {
+	background: #6c2a85 url("images/side_blog_checkusout.gif") no-repeat center 15px;;
+	padding: 50px 0 10px 0;
+}
+
+.center {
+	text-align:center;
+}
+
+#main h3.date_header {
+	font-style: normal;
+	font-size: 120%;
+	font-family: Arial, Helvetica, Sans-serif;
+	color: #14bae7;
+}
+
+#sidebar ol {
+	list-style: none;
+	
+}
+
+#blogBox p {
+	padding: 10px 0 10px 0;
+}
 
 /* =HOMEPAGE Layout styles (RV)
 ------------------------------------------*/
