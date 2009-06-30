@@ -1,0 +1,168 @@
+</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<LINK REL=StyleSheet HREF="master.css" TYPE="text/css" MEDIA=screen>	
+<style type="text/css">
+
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		
+			$('#map area').hide().mouseover(function(e){
+				$('#' + e.target.id.match(/[a-z]*_([a-z_-]*)/)[1]).show();
+				$('#' + e.target.id.match(/[a-z]*_([a-z_-]*)/)[1]).css('visibility', 'visible');
+			}).mouseout(function(e){
+				$('#' + e.target.id.match(/[a-z]*_([a-z_-]*)/)[1]).hide();
+			}).click(function(e){
+				e.preventDefault();
+				var that = this;
+				$('#project_table').hide('normal', function(e){
+					var hash = escape(that.href);
+					$.historyLoad(hash);
+				});
+				//$.history.load(this.href.replace(/^.*#/, 'stuff'));
+				//$('#projects_list').load(e.target.href + ' #project_table');
+			});
+
+		
+			});
+
+
+
+</script>
+
+</head>
+<body>
+	
+<div id="container">
+
+<div id="header">
+
+	<h1><a href="/">Radio Arte</a></h1>
+	<div id="map">
+		<img id="transparent_map"  usemap="#nav_map" alt="" src="images/transp.gif"/>
+			<img src="images/nav.gif" height="143" border="0" alt="">
+	<map name="nav_map" id="nav_map">
+	<area id="nav_home" shape="poly" coords="4,141,87,144,226,2,147,1,4,142" href="/home" />
+	<area id="nav_programming" shape="poly" coords="99,143,179,143,317,2,231,2,98,142,188,142,266,143" href="/programming" />
+	<area id="nav_about" shape="poly" coords="187,140,267,143,403,5,323,2,185,140" href="/about" />
+	<area id="nav_get-involved" shape="poly" coords="275,144,357,142,492,3,415,3,275,142,366,142" href="/get-involved" />
+	<area id="nav_support" shape="poly" coords="367,140,445,143,584,3,506,3,366,140" href="/support" />
+	<area id="nav_contact" shape="poly" coords="459,141,538,141,676,5,596,3,458,142" href="/contact" />
+	</map>
+	
+	<ul id="nav">
+		<li id="home"><a href="/">Home</a></li>
+		<li id="about"><a href="/about">About</a></li>
+		<li id="programming"><a href="/programming">Programming</a></li>
+		
+		<li id="get-involved"><a href="/get-involved">Get Involved</a></li>
+		<li id="support"><a href="/support">Support</a></li>
+		<li id="contact"><a href="/contact">Contact</a></li>
+	</ul>
+	</div>
+	<div id="station">90/5fm</div>
+</div>
+
+<div class="clearfix">
+<div class="firstmenu" class="clearfix">
+	<ul>
+		<li><a href="/overview">Overview</a></li>
+		<li><a href="/bios">Bios</a></li>
+		<li><a href="/history">History</a></li>
+		<li class="last"><a href="/faq">FAQ</a></li>
+	</ul>
+</div>
+</div>
+
+
+<div id="content" class="clearfix">
+
+	<div id="main">
+		<div class="padding_left">
+		<h1>Support Us</h1>
+		<p>
+			As the nation's only Latino-owned, youth driven, bilingual public radio station we have trained hundreds of youth in the art of radio broadcasting, dozens of them which are currently working in the media.  We have ambitious plans in creating even greater opportunities for young people to become involved in public media and in their communities at large.  In addition, we're committed to creating more original local programming that focus on issues that impact the lives of Latinos. For this, we need your support!  Will you become a Padrino or Madrina of our station, training program, or specialty shows? 
+			</p>
+			<p>
+			Your support helps us purchase equipment, pay utilities, contract workshop trainers, keep shows on the air, create community forums, stipend youth and so much more.  We need you!  Support your Latino public radio station today!  
+			
+		</p>
+		<p class="center">
+			<a href="https://co.clickandpledge.com/advanced/default.aspx?wid=24445">click here to donate!</a>
+		</p>
+		<h2>Testimonies</h2>
+		<p>
+			"I believe that the happiest moment of my life was when I found out that I had been accepted into Northwestern University. When I had first started my application, I had selected to apply as undecided for my major. Towards the end of the summer, though, I began to consider a career in journalism. This new-found interest led me to apply to the training program at Radio Arte. With the journalism and radio classes that were given, I saw that I enjoyed this field of work which led me to apply to the Medill School of Journalism. Northwestern will be a new and possibly scary experience, but I feel confident that the training and experience that I have received at Radio Arte will help me succeed."<br> -Radio Arte Alumni  
+		</p>
+		<p>
+			"Radio Arte was a great experience that led me to the best time of my life (so far), I improved so much in so many levels that I could say it changed my life.  There is a Gaby  before Radio Arte and Gaby after Radio Arte.  I met awesome people that are still my best friends; had fun while learning, and it helped me reach goals I thought impossible.  In fact, a great part of what I do at my current position has to do with publicity and the media, and I learned those skills at Radio Arte.  Thank you"<br> -Gaby, Radio Arte Alumni 
+		</p>
+		<p>
+			"Ese peque&ntilde;o aparato que llamamos radio, ha estado conmigo desde que era un bebe, creo que por eso me gusta tanto, y en &eacute;l me siento como en mi casa. Aqu&iacute; podemos crear, transformar, so&ntilde;ar, imaginar, volar, es una m&aacute;gica e infinita caja llena de posibilidades."<br>  -Hugo, Radio Arte Host
+		</p>
+	</div>
+	</div>
+
+	<div  id="sidebar">
+		<div class="box" id="listenNow">
+			<h2>Listen Now!</h2>
+			<a id="live_stream" href="#">Radio Arte Live Stream</a>
+			<a id="live_stream_hd" href="#">Radio Arte 2 Live Stream HD</a>
+			<p>ON AIR: Latin Alternative<br>
+			UP NEXT: Democracy Now</p>
+		</div>
+		
+		<div class="box" id="donateNow">
+			<a href="#">Donate Now!</a>
+		</div>
+		
+		<div class="box" id="twitterFeed">
+			<h2>Radio Arte Is</h2>
+			<p>"This is the best radio program ever! Listen to Latin Alternative on Monday Night!"
+			 <a href="#">one hour ago</a></p>
+		</div>
+		
+		<div class="box" id="flickrStream">
+			<h2>See Our Photo Gallery!</h2>
+			<a class="flickr_photo" href="#">
+				<img src="images/side_flickr_photo.jpg">
+			</a>
+			<a id="flickr_gallery" href="#">go to flickr</a> 
+		</div>
+		
+		<div class="box" id="socialNetworks">
+			<h2>Stay Connected!</h2>
+			<ul class="clearfix">
+				<li id="flickr"><a href="#">flickr</a></li>
+				<li id="facebook"><a href="#">facebook</a></li>
+				<li id="twitter"><a href="#">twitter</a></li>
+				<li id="myspace"><a href="#">myspace</a></li>
+			</ul>
+		</div>
+		<div class="box" id="weather">
+			<img src="images/weather.jpg">
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+ 	<p>
+	&copy;2009 All Rights Reserved, 90.5 FM WRTE Radio Arte / 1401 W. 18th st. Chicago, IL 60608 / 312.455.9455 / Site Map
+	<br>
+	<br>
+	<strong>Main Sponsors:</strong> <a href="http://www.nationalmuseumofmexicanart.org/">National Museum of Mexican Art</a>, <a href="http://www.cpb.org/">Corporation for Pubic Broadcasting</a>, <a href="http://www.rrmtf.org/">McCormick Foundation, </a>
+	<br>
+	<a href="http://www.afterschoolmatters.org/">After School Matters</a>, <a href="http://www.joycefdn.org/">The Joyce Foundation</a>, <a href="http://www.wgnradio.com/community/neediestkidsfund/">WGN Neediest Kids Fund</a>, <a href="http://www.rwjf.org/">Robert Wood Johnson Foundation</a>
+	<br>
+	<strong>Partners:</strong> <a href="http://newroutes.org/node/12122"> Latino Public Radio Consortium</a>, <a href="http://www.nfcb.org/index.jsp">National Federation of Community Broadcasters</a>, <a href="http://newroutes.org/">New Routes to Community Health</a>, <a href="http://burnhamplan100.uchicago.edu/">Burnham Plan 100</a>
+	</p>
+	
+</div>
+
+</div>
+	
+</body>
+</html>
