@@ -59,7 +59,6 @@ body {
 		top: 0;
 		left: 0;
 		padding: 0;
-		z-index: 1000;
 }
 
 #header h1 a {
@@ -153,13 +152,35 @@ body {
 
 #nav {
 	position: absolute;
-	left: 264px;
+	top: -1px;
+	left: -2px;
 }
 	#nav li {
-		float: left;
 		list-style: none;	
+		position: absolute;
+		visibility: hidden;
 	}	
-	
+	#map {
+		position: relative;
+		margin-left: 263px;
+	}
+
+	#transparent_map {
+		width: 556px;
+		height: 143px;
+		position: absolute;
+		z-index: 30;
+	}
+	#map li {
+		text-indent: -1000em;
+		position: absolute;
+		z-index: 20;
+		visibility: hidden;
+	}
+		#map li {
+			background-position: top left;
+			background-repeat: no-repeat;
+		}
 	#nav li#home {
 		position:absolute;
 		top: 0;
@@ -169,13 +190,13 @@ body {
 	#nav li#about {
 		position:absolute;
 		top: 0;
-		left: 90px;	
+		left: 180px;	
 	}
 	
 	#nav li#programming {
 		position:absolute;
 		top: 0;
-		left: 180px;	
+		left: 90px;	
 	}
 	
 	#nav li#get-involved {
@@ -187,13 +208,13 @@ body {
 	#nav li#support {
 		position:absolute;
 		top: 0;
-		left: 361px;	
+		left: 362px;	
 	}
 	
 	#nav li#contact {
 		position:absolute;
 		top: 0;
-		left: 450px;	
+		left: 452px;	
 	}
 	
 	#nav li a {
@@ -201,7 +222,7 @@ body {
 		width: 235px;
 		height: 143px;
 		background-repeat: no-repeat;
-		background-position: 0 -1px;
+		background-position: 0 -144px;
 		display: block;
 		overflow: hidden;
 		line-height: 1000px;
@@ -230,37 +251,6 @@ body {
 	#nav li#contact a {
 		background-image: url("images/nav_contact.gif");
 	}
-	
-	#nav li span {
-		position: absolute;
-	}
-		#nav #home .s1 {
-			width: 90px;
-			left: 0;
-			bottom: 0;
-			height: 20px;
-		}
-		#nav #home .s2 {
-			width: 90px;
-			left: 20px;
-			bottom: 20px;
-			height: 20px;
-		}
-		#nav #home .s3 {
-			width: 90px;
-			left: 40px;
-			bottom: 40px;
-			height: 20px;
-		}
-		#nav #home .s4 {
-			width: 90px;
-			left: 60px;
-			bottom: 40px;
-			height: 20px;
-		}
-		#nav #home .sx {
-			display: none;
-		}
 		
 	
 /*------------------------------------------*/
