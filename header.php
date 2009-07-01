@@ -2,7 +2,8 @@
 <html>
 <head>
 <link rel="stylesheet" href="master.css" type="text/css" media="screen">	
-
+<title>Radio Arte: youth-driven public radio</title>
+<link href="/favicon.ico" rel="shortcut icon" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){

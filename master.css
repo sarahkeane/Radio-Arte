@@ -560,13 +560,24 @@ p.caption {width: 365px;}
 	overflow: hidden;
 	margin-bottom: 20px;
 }
+#main #slideshow {
+	width: 3000px;
+	margin: 0;
+	position: relative;
+}
+	#slideshow li {
+		float: left;
+		width: 733px;
+		overflow: hidden;
+		height: 362px;
+	}
 #homepage-marquee h3 {
 	width:497px;
 	height:65px;
 	background: url('images/image_overlay.png') no-repeat;
 	text-transform: uppercase;
 	position: absolute;
-	bottom: -2px;
+	bottom: -5px;
 	padding: 5px 0 0 5px;
 	margin: 0;
 	color: #fffef3;
