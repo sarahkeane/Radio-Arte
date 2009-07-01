@@ -51,6 +51,8 @@ body {
 	border-bottom: 23px solid #ffff33;
 	width: 1024px;
 	margin: 0 auto;
+	height: 143px;
+	overflow: hidden;
 }
 
 #header h1 {
@@ -598,12 +600,16 @@ h3.fourteen-o-one {background: url("images/header_1401.gif") no-repeat left top;
 ------------------------------------------*/
 ul#pod-entries {width:auto; padding:0;}
 img.pod-image {float:left; width: 98px; height: 98px; display: inline; padding-right: 7px; margin-bottom:0;}
-#pod-entries li {list-style-type:none; float:left; margin-bottom: 5px; width:353px; margin:15px 10px 0 0; height:auto; background-color:#e5f6f2;}
+#pod-entries li {list-style-type:none;
+	height: 98px; overflow: hidden;
+	 float:left; margin-bottom: 5px; width:353px; margin:15px 10px 0 0;background-color:#e5f6f2;}
 #programming-shows a, #syndicated-shows a {color:#00b4e5;}
 .pod-image {float:left; width:98px;}
-.pod-description {float:left; width:245px; margin-left:10px;}
+.pod-description {float:left; width:200px; margin-left:10px;}
 .show-description {float:left; width:430px; margin-left:10px;}
-
+#homepage-productions p {
+	margin-bottom: 5px;
+}
 #main.full-width p, #main.full-width h2, #main.full-width h3, #main.full-width ol, #main.full-width ul {
 	padding-right: 0;
 }

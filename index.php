@@ -1,4 +1,15 @@
 <?php include("header.php"); ?>
+
+<!--[if lte IE 6]>
+<style type="text/css">
+	#homepage-marquee h3{
+		background-image: none;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/image_overlay.png', sizingMethod='image');
+	}
+</style>	
+	
+<![endif]-->
+
 <script type="text/javascript" src="application.js"></script>
 <script type="text/javascript">
 
