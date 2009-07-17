@@ -28,7 +28,7 @@
 				Director of Youth Training and Community Programming<br>
 				Journalism and Media Training Program, youth internships, community collaborations<br>
 				312.455.9455 x 203<br>
-				dmora@radioarte.org
+				tania@radioarte.org
 			</p>
 			<h3>Public Affairs/Adult Workshops</h3>
 			<p>

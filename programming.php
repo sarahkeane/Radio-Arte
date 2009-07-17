@@ -17,7 +17,7 @@
 	  
     <div class="padding_left">
 	  
-		<h1>WRTE Productions</h1>
+		<h1>Specialty Shows</h1>
 		
 		<p class="caption"><em class="homepage">Radio Arte&rsquo;s productions approach the issues that the young, local Latino&rsquo;s are forced to deal with daily.  </em></p>
 		
@@ -125,7 +125,7 @@
           </li>
           <li>
             <div class="pod-image"><img src="images/thb_latinAlternative.jpg" class="pod-image" alt="" width="98" height="98" /></div>
-            <div class="pod-description"><p><strong>Nuestra Palabra Canto (Spanish)</strong><br/>Saturdays at 9:30am and Sundays at 11:30pm<br/><em><a href="/nuestra-palabra-canto.php">See more</a></em>
+            <div class="pod-description"><p><strong>Nuestra Palabra Canto (Spanish)</strong><br/>Saturdays at 9:30am and Sundays at 11:30pm<br/><em><a href="/nuestra-palabra-y-canto.php">See more</a></em>
             </p></div>
           </li>
 		  <li>

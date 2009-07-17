@@ -139,7 +139,7 @@ $(function() {
 		<h3 id="photo_caption"><span>Youth-Driven Public Radio</span></h3>
 	  </div>
 	  
-		<h1>WRTE Productions</h1>
+		<h1>Specialty Shows</h1>
 		
 		<p class=""><em class="homepage">Radio Arte&rsquo;s productions approach the issues that the young, local Latino&rsquo;s are forced to deal with daily.  </em></p>
 		

@@ -70,7 +70,7 @@
 			Rocktonic, DJ Felix V, Dj Master Marco, DJ Victor Lua, DJ Panic, DJ Chi Boy, DJ Aryez. You can also catch them on the Friday night Hot Mix 
 			Show from 9pm-12Midnight and Saturdays on "Hotmix DJ's Saturday Night" 8pm-12Midnight.
 		</p>
-		<h1>Radio Arte Main Sponsers</h1>
+		<h1>Radio Arte Main Sponsors</h1>
 		<p>
 		<a href="http://www.nationalmuseumofmexicanart.org/"><img src="images/thb_NMMALogo.png"></a>
 		<a href="http://www.cpb.org/"><img src="images/thb_CPBLogo.png"></a>
@@ -82,7 +82,7 @@
 		</p>
 		<h1>Radio Arte Partners</h1>
 		<p>
-		<a href="http://newroutes.org/node/12122"><img src="images/thb_LPRCLogo.png"></a>
+		<a href="http://www.latinopublicradioconsortium.org/"><img src="images/thb_LPRCLogo.png"></a>
 		<a href="http://www.nfcb.org/index.jsp"><img src="images/thb_NFCBLogo.png"></a>
 		<a href="http://newroutes.org/"><img src="images/thb_NRCHLogo.png"></a>
 		<a href="http://burnhamplan100.uchicago.edu/"><img src="images/thb_BPLogo.png"></a>
