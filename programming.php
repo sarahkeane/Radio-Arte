@@ -74,7 +74,7 @@
   		<div id="shows-list">
   		  <ul id="pod-entries">
   		    <li>
-  		      <div class="pod-image"><img src="images/thb_beatGallery.jpg" class="pod-image" alt="" width="98" height="98" /></div>
+  		      <div class="pod-image"><img src="images/thb_BeatGallery.jpg" class="pod-image" alt="" width="98" height="98" /></div>
   		      <div class="pod-description"><p><strong>Beat Gallery</strong><br/>Mondays at 8pm<br/><em><a href="/beat-gallery.php">See more</a></em>
             </p></div>
   		    </li>
@@ -99,7 +99,7 @@
             </p></div>
           </li>
           <li>
-            <div class="pod-image"><img src="images/thb_entreTuYYo.jpg" class="pod-image" alt="" width="98" height="98" /></div>
+            <div class="pod-image"><img src="images/thb_EntreTuYYo.jpg" class="pod-image" alt="" width="98" height="98" /></div>
             <div class="pod-description"><p><strong>Entre Tu y Yo (Spanish)</strong><br/>Saturdays at 6pm<br/><em><a href="entre-tu-y-yo.php">See more</a></em>
             </p></div>
           </li>
